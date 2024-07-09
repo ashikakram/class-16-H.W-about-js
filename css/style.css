@@ -1,0 +1,18 @@
+#main{
+    height: 500px;
+    background-color: rgb(86, 169, 2);
+}
+.container{
+    padding-top: 50px;
+}
+.box{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.cloud{
+    height: 200px;
+    width: 200px;
+    background-color: dimgray;
+}

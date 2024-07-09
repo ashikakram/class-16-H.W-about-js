@@ -1,0 +1,26 @@
+$(function(){
+    $("#hide").click(function(){
+        $(".box").hide(1000)
+    })
+    $("#show").click(function(){
+        $(".box").show(1000)
+    })
+    $("#hide-show").click(function(){
+        $(".box").toggle(1000)
+    })
+    $("#slide-up").click(function(){
+        $(".box").slideUp(1000)
+    })
+    $("#slide-down").click(function(){
+        $(".box").slideDown(1000)
+    })
+    $("#slide-up-down").click(function(){
+        $(".box").slideToggle(1000)
+    })
+    $("#show-cloud").click(function(){
+        $(".box").addClass("cloud")
+    })
+    $("#remove-cloud").click(function(){
+        $(".box").removeClass("cloud")
+    })
+})
